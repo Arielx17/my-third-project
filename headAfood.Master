@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="headAfood.Master.cs" Inherits="web.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="public/css/work.css" type="text/css"/>
+    <style type="text/css"></style>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height:1700px" class="container">
+            <ul class="header">
+                <li class="logo"><a href="homepage.html"><img src="public/img/logo1.png"/></a></li>
+                  <li class="info"><a href="allgoods.aspx">全部商品</a></li>
+                  <li class="info"><a href="ifmpage.html">咨询频道</a></li>
+                  <li class="info"><a href="aboutus.html">关于我们</a></li>
+                  <li class="right">
+                    <ul class="tixing">
+                        <li class="triangle1"></li>
+                        <li class="pic"><a href="main.aspx"><img src="public/img/登录.png"/></a></li>
+                        <li class="triangle2"></li>
+                    </ul>
+                    <ul class="tixing">
+                        <li class="triangle1"></li>                   
+                        <li class="pic"><a href="car.aspx"><img src="public/img/购物车.png"/></a></li>
+                        <li class="triangle2"></li>
+                    </ul>
+                    </li>
+              </ul>
+            <asp:ContentPlaceHolder ID="middle" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer">
+            <img src="footer.png">
+            <div class="rfooter">
+                <img class="lfooter" src="public/img/logo1.png">
+            </div>
+          </div>
+        </div>
+    </form>
+</body>
+</html>

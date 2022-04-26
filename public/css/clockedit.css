@@ -1,0 +1,106 @@
+﻿body {
+}
+.header {
+    background-color: rgb(187,29,57);
+}
+
+ul.header {
+    position: fixed;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    padding: 0;
+}
+
+.info {
+    padding: 0px;
+    background-color: rgb(187,29,57);
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.tixing {
+    position: relative;
+    top: -15px;
+    right: -100px;
+}
+
+.homebtn {
+    background: #43423F;
+    font: #fff;
+    width: 300px;
+    height: 30px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.headerpic {
+    margin-top: -20px;
+    height: 200px;
+    padding: 0;
+    margin-left: 2px;
+    margin-bottom: 48px;
+}
+
+
+
+#btn {
+    padding-left: 325px;
+    padding-top: 10px;
+}
+
+.sp {
+    padding: 10px;
+}
+
+.add {
+    margin: 10px;
+    padding: 15px;
+    border: 2px dotted grey;
+    width: 1000px;
+    height: 100px;
+    background-color: hsla(58, 62%, 92%, 0.87);
+}
+
+.titletxt {
+    background: #fff1dc;
+    border: none;
+    width: 500px;
+    font-size: 44px;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+#pub_btn {
+    background: #bb1d39;
+    color:#fff;
+    font-size:14px;
+    border:none;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+   
+}
+.txtbox {
+    padding-top:50px;
+    width: 200px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:20px;
+}
+
+.txtAuthor {
+    border: none;
+    width: 300px;
+    background:#fff;
+    height:30px;
+    margin-bottom:25px;
+}
+

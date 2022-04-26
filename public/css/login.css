@@ -1,0 +1,94 @@
+.container {
+    height: 1100px;
+    margin: auto
+}
+
+
+.info {
+    height: 40px;
+    width: 8%;
+    margin-right: 2.5%;
+    float: left;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px 1.5%;
+    list-style: none;
+}
+
+    .info a {
+        font-size: 22px;
+        color: #fff;
+        text-decoration: none
+    }
+
+.right {
+    width: 300px;
+    height: 40px;
+    float: right;
+    padding-right: 6.5%;
+}
+
+
+.body {
+    width: 1300px;
+    height: 60%;
+    margin-left: 200px;
+    background-image: url("public/img/loginbg.png");
+    background-repeat: no-repeat;
+}
+
+.food {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.title {
+    width: 70px;
+    height: 20px;
+    font-size: 18px;
+    color: grey;
+    float: left;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.signinbox {
+    width: 400px;
+    height: 300px;
+    float: left;
+    padding-top: 250px;
+    padding-left: 40px;
+}
+
+.signin {
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey;
+    background: white;
+    margin-bottom: 45px;
+    float: left;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    background: rgb(187,29,57);
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,100 @@
+.header{
+   
+    background-color:rgb(187,29,57);
+
+}
+ul.header{
+   
+    position: fixed;
+}
+.logo{
+  width:70px;
+  height: 70px;
+  padding: 0;
+}
+.info{
+    padding: 0px;
+    background-color:rgb(187,29,57);
+    font-size:22px;
+    color:#fff;
+    text-decoration:none;
+    margin-top:20px;
+    margin-left:100px; 
+}
+.tixing{
+    position: relative;
+    top:-15px;
+    right:-100px;
+}
+.homebtn{
+    background: #43423F;
+    font:#fff;
+    width:300px;
+    height: 30px;
+    margin-top: 100px;
+    border-radius: 15px;
+
+}
+
+.headerpic
+{
+    margin-top:-20px;
+    height:200px;
+    padding:0;
+    margin-left:2px;
+    margin-bottom:48px;
+}
+
+
+
+ #btn{
+     padding-left:325px;
+     padding-top:10px;
+ }
+ .sp{
+     padding:10px;
+ }
+ .add{
+  
+     margin:10px;
+     padding:15px;
+     border:2px dotted grey;
+     width:1000px;
+     height:100px;
+     background-color:hsla(58, 62%, 92%, 0.87);
+ }
+.btnGotopub {
+   
+    color: #fff;
+    font-size: 24px;
+    margin-top:15px;
+   margin-right:10px;
+    float:right;
+    display:block;
+
+}
+
+
+.listbox {
+    margin-left: 40%;
+    background: #fff;
+    width: 900px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: #dddddd 0px 0px 2px;
+}
+
+.authortxt {
+    font-size: 12px;
+    color: #a39075;
+}
+.timetxt{
+    color:lightslategrey;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
